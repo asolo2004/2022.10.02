@@ -10,7 +10,7 @@ for i in range(0, k):
         mmax = s[i]
         c = i
 print()
-if c != -1 and c != k:
+if c != -1:
     for i in range(c+1, k):
         s[i] = 0
 for i in range(0, k):
